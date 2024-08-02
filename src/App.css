@@ -2,37 +2,78 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.view-wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.products-wrapper {
+  margin-bottom: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.footer-view {
+  position: absolute;
+  top: 0;
+}
+
+.card {
+  width: 200px !important;
+  height: 350px !important;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px 0;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-img-top {
+  width: 100px;
+  height: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.card-title {
+  height: 50px;
+}
+
+.card-body {
+  position: relative;
+}
+
+.card-text {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  background: #ffd43b !important;
+  border: none;
+  color: black;
+  z-index: 2;
+}
+
+.card-btn:hover {
+  background: black !important;
+  color: #ffd43b;
+}
+
+.btn-color {
+  background: #ffd43b !important;
+  border: none;
+  color: black;
+}
+
+.btn-color:hover {
+  background: black !important;
+  color: #ffd43b;
+}
+
+@media screen and (max-width: 767px) {
+  .view-wrapper {
+    padding: 0 20px;
   }
 }

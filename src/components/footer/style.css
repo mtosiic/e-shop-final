@@ -1,0 +1,23 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  background: black;
+  width: 100%;
+  color: #ffd43b;
+  display: flex;
+}
+
+.footer-link-style {
+  color: #ffd43b;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer-tabs-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
